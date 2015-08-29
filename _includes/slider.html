@@ -1,0 +1,26 @@
+<div class="wrapper">
+  <div id="slider" class="clear"> 
+    <!-- ################################################################################################ -->
+    <div class="flexslider basicslider">
+      <ul class="slides">
+        {% for slide in site.slides %}
+        <li><img src="{{slide.img_url}}" alt="">
+          <div class="txtoverlay">
+            <div class="centralise">
+              <div class="verticalwrap">
+                <article>
+                  <h2 class="heading uppercase">{{slide.text}}</h2>
+                  <p>
+                    {% for button in slide.buttons %}
+                    <a class="btn {{button.color}}" href="#">{{button.button_text}}</a> 
+                    {% endfor %}</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+  </div>
+  </div>
+</div>

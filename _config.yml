@@ -1,0 +1,51 @@
+# Site settings
+title: "Bottlebrush Backpackers"
+description: "Bottlebrush Backpackers is the most centrally located backpackers in Hunter Valley."
+
+url: "http://bottlebrushbackpackers.com"
+
+contact_person: "Katie"
+email: "info@bottlebrushbackpackers.com"
+phone: "+61 416 049 718"
+
+# Copyright owner's name for footer
+copyright: "www.bottlebrushbackpackers.com"
+
+
+# Exclude the following files/directories from being converted
+exclude: ['.gitignore', 'CHANGELOG.md', 'Gemfile', 'Gemfile.lock', 'LICENSE.md', 'README.md']
+
+
+# Slider slides 
+slides:
+  - img_url: "images/slides/exterior.jpg"
+    text: "Welcome to Bottlebrush Backpackers"
+    buttons: 
+      - button_text: "our facilities"
+        color: "orange"
+        url: "/facilities"
+      - button_text: "make a booking"
+        color: "red"
+        url: ""
+  - img_url: "images/slides/private_room.jpg"
+    text: "Enjoy a comfortable stay in the heart of Hunter Valley"
+    buttons: 
+      - button_text: "our rooms"
+        color: "red"
+        url: "/rooms"
+  - img_url: "images/slides/commonArea.jpg"
+    text: "Quality budget accommodation"
+    buttons: 
+      - button_text: "Our Rates"
+        color: "orange"
+        url: "/rates"
+      - button_text: "Photo Gallery"
+        color: "red"
+        url: "/gallery"    
+
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
