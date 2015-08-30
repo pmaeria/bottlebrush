@@ -12,7 +12,7 @@
                   <h2 class="heading uppercase">{{slide.text}}</h2>
                   <p>
                     {% for button in slide.buttons %}
-                    <a class="btn {{button.color}}" href="#">{{button.button_text}}</a> 
+                    <a class="btn {{button.color}}" href="{{site.baseurl}}{{button.url}}">{{button.button_text}}</a> 
                     {% endfor %}</p>
                 </article>
               </div>

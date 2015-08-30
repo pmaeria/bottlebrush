@@ -7,6 +7,7 @@
 
     {% include header.html %}
     {% include slider.html %}
+
     <div class="wrapper row2">
     <div id="services" class="clear"> 
       <!-- ################################################################################################ -->
@@ -16,23 +17,23 @@
             <h2 class="heading">Our Location</h2>
             <p class="btmspace-10">26b Cumberland St.</p>
     <p class="btmspace-10">Right in the centre of Cessnock, 2 minutes walk to food, shopping, public transport and galleries.</p>
-           <p><a href="#">Read More &raquo;</a></p>
+           <!-- <p><a href="#">Read More &raquo;</a></p> -->
           </article>
         </div>
         <div class="one_third">
           <article class="service"><i class="icon orange circle fa fa-usd"></i>
             <h2 class="heading">Our rates</h2>
             <p class="btmspace-10">Get a bed for as low as $22* per night and $65 for an entire room to yourself.</p>
-            <p><a href="#">read More>></a></p>
+            <p><a href="{{site.baseurl}}/rates">Read More>></a></p>
 
           </article>
         </div>
         <div class="one_third">
           <article class="service"><i class="icon green circle fa fa-lightbulb-o"></i>
             <h2 class="heading">Our facilities</h2>
-            <p class="btmspace-10">check our our gallery for the range of facilities we offer.</p>
-            <p><a href="#">Our rooms>></a></p>
-      <p><a href="#">Our facilities>></a></p>
+            <p class="btmspace-10">Check our our gallery for the range of facilities we offer.</p>
+            <!-- <p><a href="{{site.baseurl}}/rooms">Our rooms>></a></p> -->
+            <p><a href="{{site.baseurl}}/facilities">Our facilities>></a></p>
           </article>
         </div>
       </div>
@@ -48,7 +49,7 @@
         <h2 class="heading">Make a booking</h2>
         <p>Contact {{site.contact_person}} on {{site.phone}} to make a booking.</p>
       </div>
-      <div class="one_quarter"><a class="btn" href="#">Book Now <span class="fa fa-arrow-right"></span></a></div>
+      <div class="one_quarter"><a class="btn" href="{{site.baseurl}}/booking">Book Now <span class="fa fa-arrow-right"></span></a></div>
       <!-- ################################################################################################ -->
     </section>
   </div>
