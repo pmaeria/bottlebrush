@@ -25,9 +25,9 @@ slides:
       - button_text: "our facilities"
         color: "orange"
         url: "/facilities"
-      - button_text: "make a booking"
-        color: "red"
-        url: "/booking"
+      # - button_text: "make a booking"
+      #   color: "red"
+      #   url: "/booking"
   - img_url: "images/slides/private_room.jpg"
     text: "Enjoy a comfortable stay in the heart of Hunter Valley"
     buttons: 
