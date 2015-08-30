@@ -264,7 +264,7 @@ h1, h2, h3, h4, h5, h6, .heading{color:#242424; border-color:inherit;}
 .row4{color:#888888; background-color:#F7F7F7; border-color:#EBEBEB;}
 .row5, .row5 a{color:#888888; background-color:#EBEBEB;}
 .row6{color:#FFFFFF; background-color:#96AFAA;}
-.row6 a{color:#96AFAA; background-color:#FFFFFF;}
+.row6 a{text-decoration: underline; color: #FFFFFF;}
 
 
 /* CTA - Call To Action */
