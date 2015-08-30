@@ -22,9 +22,9 @@ slides:
   - img_url: "images/slides/exterior.jpg"
     text: "Welcome to Bottlebrush Backpackers"
     buttons: 
-      # - button_text: "our facilities"
-      #   color: "orange"
-      #   url: "/facilities"
+      - button_text: "our facilities"
+        color: "orange"
+        url: "/facilities"
       - button_text: "make a booking"
         color: "red"
         url: "/booking"
@@ -54,6 +54,7 @@ sass:
 
 
 # TODOS
+# fix google map scrolling
 # add booking information
 # build gallery?
 # add photos to rooms
