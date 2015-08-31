@@ -388,3 +388,6 @@ table a, #comments a{background-color:inherit;}
 	.latest ul li figure img{width:100%;}
 	.latest ul li figure figcaption{padding:15px 30px;}
 }
+
+.privateTable td, .privateTable th {text-align:center;}
+.privateTable td:first-child {text-align:left;}
