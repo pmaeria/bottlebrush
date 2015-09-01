@@ -2,14 +2,6 @@
   <footer id="footer" class="clear"> 
     <!-- ################################################################################################ -->
     <div class="one_quarter first">
-      <h6 class="title">About Us</h6>
-      <article>
-        <h2 class="nospace"><a href="#">Lorem ipsum dolor</a></h2>
-        <time class="smallfont" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
-        <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed.</p>
-      </article>
-    </div>
-    <div class="one_quarter">
       <h6 class="title">Contact Details</h6>
       {% include address.html %}
       <ul class="nospace">
@@ -17,40 +9,30 @@
         <li><span class="fa fa-envelope-o"></span> <a href="mailto:{{site.email}}">Email Us</a></li>
       </ul>
     </div>
+    
     <div class="one_quarter">
       <h6 class="title">Quick Links</h6>
       <ul class="nospace linklist">
-        <li><a href="#">Home Page</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="{{site.baseurl}}/rates">Rates</a></li>
+        <li><a href="{{site.baseurl}}/rooms">Rooms</a></li>
+        <li><a href="{{site.baseurl}}/facilities">Facilities</a></li>
+        <li><a href="{{site.baseurl}}/getting-around">Getting Around</a></li>        
       </ul>
-    </div>    
-    <div class="one_quarter">
-      <h6 class="title">Share Us</h6>
-      <!-- <form class="btmspace-30" method="post" action="#">
-        <fieldset>
-          <legend>Newsletter:</legend>
-          <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <button type="submit" value="submit">Submit</button>
-        </fieldset>
-      </form> -->
-      <ul class="faico clear">
-        <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-        <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-        <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-        <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-        <li><a class="faicon-instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-        <li><a class="faicon-tumblr" href="#"><i class="fa fa-tumblr"></i></a></li>
-      </ul>
+    </div>        
+    <div class="one_half">
+      <h6 class="title">Events</h6>
+      <article>
+        <strong>September 26</strong>  <a href="http://www.wollombimusicfestival.com.au/">Wollombi Music Festival</a><br>
+        <strong>October 3</strong> - Oktoberfest<br>
+        <strong>October 31 - November 29</strong> - Sculpture in the vineyards<br>
+        <strong>November 7</strong> - Neil Diamond at Tempus 2<br>
+        <strong>November 14-15</strong>  Fleetwood Mac at Hope Estate<br>
+        <strong>November 28</strong> - Paul Kelly<br>
+      </article>
     </div>
     <!-- ################################################################################################ -->
   </footer>
 </div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
 <div class="wrapper row5">
   <div id="copyright" class="clear"> 
     <!-- ################################################################################################ -->
@@ -59,8 +41,6 @@
     <!-- ################################################################################################ -->
   </div>
 </div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a> 
 <!-- JAVASCRIPTS -->
