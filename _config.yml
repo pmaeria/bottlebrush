@@ -4,9 +4,11 @@ description: "Bottlebrush Backpackers is the most centrally located backpackers 
 
 url: "http://bottlebrushbackpackers.com"
 
-contact_person: "Lindsay"
 email: "info@bottlebrushbackpackers.com"
-phone: "+61 458 481 485"
+# contact_person: "Lindsay"
+# phone: "+61 458 481 485"
+contact_person: "Katie"
+phone: "+61 416 049 718"
 
 # Copyright owner's name for footer
 copyright: "www.bottlebrushbackpackers.com"
